@@ -10,10 +10,10 @@
 \newboolean{default}
 \setboolean{default}{true}
 
-% oldstyle
-\newboolean{oldstyle}
-\setboolean{oldstyle}{false}
-\DeclareOption{oldstyle}{\setboolean{oldstyle}{true} \setboolean{default}{false}}
+% olddefault
+\newboolean{olddefault}
+\setboolean{olddefault}{false}
+\DeclareOption{olddefault}{\setboolean{olddefault}{true} \setboolean{default}{false}}
 
 % times
 \newboolean{times}
@@ -83,9 +83,9 @@
     \RequirePackage[default]{fontsetup}
     \setmonofont{CMU Typewriter Text}
 }{}
-\ifthenelse{\boolean{oldstyle}}
+\ifthenelse{\boolean{olddefault}}
 {
-    \RequirePackage[oldstyle]{fontsetup}
+    \RequirePackage[olddefault]{fontsetup}
     \setmonofont{CMU Typewriter Text}
 }{}
 \ifthenelse{\boolean{times}}
