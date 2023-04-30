@@ -72,7 +72,7 @@
 
 \RequirePackage[top=2cm, bottom=2cm, left=3cm, right=1.5cm, a4paper]{geometry}
 
-\RequirePackage{microtype}
+\RequirePackage[verbose=silent]{microtype}
 
 \RequirePackage{polyglossia}
 \setdefaultlanguage[spelling=modern, babelshorthands=true]{russian}
