@@ -75,7 +75,7 @@
 \RequirePackage[verbose=silent]{microtype}
 
 \RequirePackage{polyglossia}
-\setdefaultlanguage[spelling=modern, babelshorthands=true]{russian}
+\setdefaultlanguage[forceheadingpunctuation=false, spelling=modern, babelshorthands=true]{russian}
 \setotherlanguage{english}
 
 \ifthenelse{\boolean{default}}
