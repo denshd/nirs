@@ -55,6 +55,7 @@
 \RequirePackage[usenames, dvipsnames, svgnames, table, rgb]{xcolor}
 
 \RequirePackage{graphicx}
+\RequirePackage{adjustbox}
 \RequirePackage{wrapfig}
 \RequirePackage{caption}
 \RequirePackage{subcaption}
